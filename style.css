@@ -7,9 +7,10 @@ body {
     font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
     padding: 0;
+    font-size: 16px;
 }
 
-.heading-container {
+.headingContainer {
     z-index: -100;
     background-image: url("./img/HeadlineImage_1.jpg");
     background-position: center;
@@ -18,11 +19,11 @@ body {
     min-height: 550px;
 }
 
-.header-text-container {
+.headerTextContainer {
     z-index: 100;
 }
 
-.header-text {
+.headerText {
     font-size: 40px;
     font-weight: bold;
 
@@ -40,4 +41,32 @@ body {
     font-size: 60px;
 
 
+}
+
+#textBox1 {
+    height: 100px;
+}
+
+.textBox-text {
+    padding-left: 80px;
+}
+
+.threeChocContainer {
+
+    background-image: linear-gradient(to right,
+
+        transparent 0%,
+        #c49a6c 47%,
+        #c39b7c 50%,
+        #c49a6c 52%,
+        transparent 100%);
+}
+
+.threeChocolate img {
+    width: 80%;
+}
+
+.threeChocolate p {
+    font-size: 20px;
+    color: #4f341a;
 }
