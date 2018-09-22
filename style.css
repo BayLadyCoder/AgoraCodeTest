@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.heading-container {
+    z-index: -100;
+    background-image: url("./img/HeadlineImage_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 550px;
+}
+
+.header-text-container {
+    z-index: 100;
+}
+
+.header-text {
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.text-perfectBloodSugar {
+    background-image: linear-gradient(to right,
+        #682f10,
+        #ede7e3,
+        #ede7e3,
+        #ede7e3,
+        #682f10);
+
+    color: #ba3232;
+    font-size: 60px;
+
+
+}
