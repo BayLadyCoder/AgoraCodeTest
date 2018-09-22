@@ -44,9 +44,7 @@ body {
 
 }
 
-#textBox1 {
-    height: 100px;
-}
+#textBox1 {}
 
 .textBox-text {
     padding: 0 100px;
