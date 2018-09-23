@@ -1,253 +1,349 @@
 * {
-    box-sizing: border-box;
-
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 0 auto;
-    padding: 0;
-    font-size: 16px;
-    font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 /* --  --  --  Heading Section (section 1) --  --  -- */
 
 .headingContainer {
-    z-index: -100;
-    background-image: url("./img/HeadlineImage_1.jpg");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 600px;
+  z-index: -100;
+  background-image: url("./img/HeadlineImage_1.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
 }
 
 .headerTextContainer {
-    z-index: 100;
+  z-index: 100;
 }
 
 .headerText {
-    font-size: 47px;
-    font-weight: bold;
-
+  font-size: 47px;
+  font-weight: bold;
 }
 
 .text-perfectBloodSugar {
-    background-image: linear-gradient(to right,
-        #682f10,
-        #ede7e3,
-        #ede7e3,
-        #ede7e3,
-        #682f10);
+  background-image: linear-gradient(
+    to right,
+    #682f10,
+    #ede7e3,
+    #ede7e3,
+    #ede7e3,
+    #682f10
+  );
 
-    color: #ba3232;
-    font-size: 67px;
-
-
+  color: #ba3232;
+  font-size: 67px;
 }
 
 .textBox-text {
-    padding: 0 100px;
+  padding: 0 100px;
+  text-align: justify;
 }
 
 /* --  --  --  Media Queries (section 1) --  --  -- */
 
 @media only screen and (max-width: 1280px) {
-    .headingContainer {
-        height: 500px;
-    }
+  .headingContainer {
+    height: 500px;
+  }
 
-    .headerText {
-        font-size: 37px;
-    }
+  .headerText {
+    font-size: 37px;
+  }
 
-    .text-perfectBloodSugar {
-        font-size: 57px;
-    }
+  .text-perfectBloodSugar {
+    font-size: 57px;
+  }
 
-    .textBox-text {
-        padding: 0 50px;
-    }
-
+  .textBox-text {
+    padding: 0 50px;
+  }
 }
 
 @media only screen and (max-width: 1080px) {
-    .headingContainer {
-        height: 400px;
-    }
+  .headingContainer {
+    height: 400px;
+  }
 
-    .headerText {
-        font-size: 30px;
-    }
+  .headerText {
+    font-size: 30px;
+  }
 
-    .text-perfectBloodSugar {
-        font-size: 50px;
-    }
+  .text-perfectBloodSugar {
+    font-size: 50px;
+  }
 
-    .textBox-text {
-        padding: 0 30px;
-    }
-
+  .textBox-text {
+    padding: 0 30px;
+  }
 }
 
 @media only screen and (max-width: 960px) {
-    .headingContainer {
-        height: 350px;
-    }
+  .headingContainer {
+    height: 350px;
+  }
 
-    .headerText {
-        font-size: 26px;
-    }
+  .headerText {
+    font-size: 26px;
+  }
 
-    .text-perfectBloodSugar {
-        font-size: 40px;
-    }
+  .text-perfectBloodSugar {
+    font-size: 40px;
+  }
 
-    .textBox-text {
-        padding: 0 20px;
-    }
+  .textBox-text {
+    padding: 0 20px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .headingContainer {
-        height: 300px;
-    }
+  .headingContainer {
+    height: 300px;
+  }
 
-    .headerText {
-        font-size: 20px;
-    }
+  .headerText {
+    font-size: 20px;
+  }
 
-    .text-perfectBloodSugar {
-        font-size: 30px;
-    }
+  .text-perfectBloodSugar {
+    font-size: 30px;
+  }
 
-    .textBox-text {
-        padding: 0px;
-    }
+  .textBox-text {
+    padding: 10px;
+  }
 }
 
-
 @media only screen and (max-width: 640px) {
-
-    .textBox-text {
-        font-size: 15px;
-    }
+  .textBox-text {
+    font-size: 15px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
-    .headingContainer {
-        height: 230px;
-    }
+  .headingContainer {
+    height: 230px;
+  }
 
-    .headerText {
-        font-size: 17px;
-    }
+  .headerText {
+    font-size: 17px;
+  }
 
-    .text-perfectBloodSugar {
-        font-size: 22px;
-    }
+  .text-perfectBloodSugar {
+    font-size: 22px;
+  }
 
-    .textBox-text {
-        font-size: 14px;
-    }
+  .textBox-text {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 320px) {
-    .headingContainer {
-        height: 200px;
-    }
+  .headingContainer {
+    height: 200px;
+  }
 
-    .headerText {
-        font-size: 14px;
-    }
+  .headerText {
+    font-size: 14px;
+  }
 
-    .text-perfectBloodSugar {
-        font-size: 18px;
-    }
+  .text-perfectBloodSugar {
+    font-size: 18px;
+  }
 
-    .textBox-text {
-        font-size: 13px;
-    }
+  .textBox-text {
+    font-size: 13px;
+  }
 }
 
 /* --  --  --  Three Chocolate Section (section 2) --  --  -- */
 
 .threeChocContainer {
-
-    background-image: linear-gradient(to right,
-
-        transparent 0%,
-        #c49a6c 47%,
-        #c39b7c 50%,
-        #c49a6c 52%,
-        transparent 100%);
+  background-image: linear-gradient(
+    to right,
+    transparent 0%,
+    #c49a6c 47%,
+    #c39b7c 50%,
+    #c49a6c 52%,
+    transparent 100%
+  );
 }
 
 .threeChocolate img {
-    width: 80%;
+  width: 80%;
 }
 
 .threeChocolate p {
-    font-size: 20px;
-    color: #4f341a;
+  font-size: 20px;
+  color: #4f341a;
 }
-
 
 /* --  --  --  Media Queries (section 2) --  --  -- */
 @media only screen and (max-width: 1080px) {
+  .threeChocolate img {
+    width: 70%;
+  }
 
-    .threeChocolate img {
-        width: 70%;
-    }
-
-    .threeChocolate p {
-        font-size: 19px;
-    }
+  .threeChocolate p {
+    font-size: 19px;
+  }
 }
 
-
-
 @media only screen and (max-width: 991px) {
-    .threeChocolate img {
-        width: 80%;
-    }
+  .threeChocolate img {
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .threeChocolate p {
-        font-size: 18px;
-    }
+  .threeChocolate p {
+    font-size: 18px;
+  }
 }
 
-@media only screen and (max-width: 640px) {}
+@media only screen and (max-width: 640px) {
+}
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+}
 
 @media only screen and (max-width: 320px) {
-    .threeChocolate img {
-        padding-top: 10px;
-        width: 60%;
-    }
+  .threeChocolate img {
+    padding-top: 10px;
+    width: 60%;
+  }
 
-    .threeChocolate p {
-        font-size: 18px;
-    }
+  .threeChocolate p {
+    font-size: 18px;
+  }
 }
 
+/* --  --  --  ElderMan Section (section 3) --  --  -- */
 
+.elderManContainer {
+  z-index: -100;
+  background-image: url("./img/ParallaxOne_5.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 320px;
+}
 
+.elderManTextContainer {
+  height: 50%;
+}
 
-/* --  --  --  Media Queries --  --  -- */
-@media only screen and (max-width: 1280px) {}
+.elderManText {
+  font-size: 40px;
+  margin-left: 150px;
+}
 
-@media only screen and (max-width: 1080px) {}
+.whiteTextShadow {
+  text-shadow: 1px 1px 5px #000000;
+}
 
-@media only screen and (max-width: 960px) {}
+.smallText {
+  font-size: 25px;
+}
 
-@media only screen and (max-width: 768px) {}
+/* --  --  --  Media Queries (section 3) --  --  -- */
+@media only screen and (max-width: 1280px) {
+  .elderManContainer {
+    height: 300px;
+  }
 
-@media only screen and (max-width: 640px) {}
+  .elderManText {
+    font-size: 35px;
+    margin-left: 100px;
+  }
 
-@media only screen and (max-width: 480px) {}
+  .smallText {
+    font-size: 20px;
+  }
+}
 
-@media only screen and (max-width: 320px) {}
+@media only screen and (max-width: 1080px) {
+  .elderManContainer {
+    height: 250px;
+  }
+
+  .elderManTextContainer {
+    height: 60%;
+  }
+
+  .elderManText {
+    font-size: 30px;
+    margin-left: 80px;
+  }
+
+  .smallText {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .elderManContainer {
+    height: 220px;
+  }
+
+  .elderManTextContainer {
+    height: 70%;
+  }
+
+  .elderManText {
+    font-size: 25px;
+    margin-left: 70px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .elderManContainer {
+    height: 200px;
+  }
+
+  .elderManTextContainer {
+    height: 75%;
+  }
+
+  .elderManText {
+    font-size: 20px;
+    margin-left: 60px;
+  }
+
+  .smallText {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .elderManText {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .elderManText {
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .elderManText {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  .smallText {
+    font-size: 16px;
+  }
+}
