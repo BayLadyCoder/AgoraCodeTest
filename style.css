@@ -31,14 +31,12 @@ body {
 }
 
 .text-perfectBloodSugar {
-  background-image: linear-gradient(
-    to right,
+  background-image: linear-gradient(to right,
     #682f10,
     #ede7e3,
     #ede7e3,
     #ede7e3,
-    #682f10
-  );
+    #682f10);
 
   color: #ba3232;
   font-size: 67px;
@@ -168,14 +166,12 @@ body {
 /* --  --  --  Three Chocolate Section (section 2) --  --  -- */
 
 .threeChocContainer {
-  background-image: linear-gradient(
-    to right,
+  background-image: linear-gradient(to right,
     transparent 0%,
     #c49a6c 47%,
     #c39b7c 50%,
     #c49a6c 52%,
-    transparent 100%
-  );
+    transparent 100%);
 }
 
 .threeChocolate img {
@@ -210,11 +206,9 @@ body {
   }
 }
 
-@media only screen and (max-width: 640px) {
-}
+@media only screen and (max-width: 640px) {}
 
-@media only screen and (max-width: 480px) {
-}
+@media only screen and (max-width: 480px) {}
 
 @media only screen and (max-width: 320px) {
   .threeChocolate img {
@@ -346,4 +340,33 @@ body {
   .smallText {
     font-size: 16px;
   }
+}
+
+
+/* --  --  --  -- Doctor and Lady Section --  --  --  --  --*/
+
+#DoctorSection {}
+
+#brownBox {
+  position: relative;
+  left: 0;
+  width: 90%;
+  height: 250px;
+  background-color: #3d1c0f;
+}
+
+.doctorImgContainer {
+  width: 40%;
+}
+
+.doctorImg {
+  position: relative;
+  width: auto;
+  height: 320px;
+  z-index: 100;
+}
+
+.textBoxBrown {
+  font-size: 20px;
+  width: 60%;
 }
