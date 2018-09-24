@@ -573,7 +573,6 @@ body {
   background-color: #fff;
   z-index: 100;
   margin-bottom: -10px;
-
 }
 
 .textBoxContainer {
@@ -582,7 +581,6 @@ body {
 
 .guaranteeBoldText {
   font-size: 30px;
-
 }
 
 .clearfix {
@@ -600,21 +598,115 @@ body {
 }
 
 /* --  --  --  Media Queries (section 6) --  --  -- */
-@media only screen and (max-width: 1280px) {}
+@media only screen and (max-width: 1280px) {
 
-@media only screen and (max-width: 1080px) {}
+  #deliveryManImg {
+    width: 250px;
+  }
+}
 
-@media only screen and (max-width: 960px) {}
+@media only screen and (max-width: 1080px) {
+  #deliveryManImg {
+    width: 220px;
+  }
+}
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 960px) {
+  #deliveryManImg {
+    width: 200px;
+  }
 
-@media only screen and (max-width: 640px) {}
+  .guaranteeBoldText {
+    font-size: 28px;
+  }
+}
 
-@media only screen and (max-width: 575px) {}
+@media only screen and (max-width: 768px) {
+  #deliveryManImg {
+    width: 180px;
+  }
 
-@media only screen and (max-width: 480px) {}
+  .guaranteeBoldText {
+    font-size: 26px;
+  }
 
-@media only screen and (max-width: 320px) {}
+  .container {
+    padding: 10px 0 !important;
+    max-width: 600px !important;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #deliveryManImg {
+    width: 160px;
+  }
+
+  .guaranteeBoldText {
+    font-size: 24px;
+  }
+
+  .textBoxContainer {
+    font-size: 17px;
+  }
+
+  .container {
+    max-width: 500px !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #deliveryManImg {
+    width: 150px;
+  }
+
+  .guaranteeBoldText {
+    font-size: 22px;
+  }
+
+  .textBoxContainer {
+    font-size: 16px;
+  }
+
+  .container {
+    max-width: 400px !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #deliveryManImg {
+    width: 130px;
+    float: left;
+    padding-right: 10px;
+  }
+
+  .guaranteeBoldText {
+    font-size: 18px;
+  }
+
+  .textBoxContainer {
+    font-size: 15px;
+  }
+
+  .container {
+    max-width: 300px !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #deliveryManImg {
+    width: 110px;
+    float: left;
+    padding-right: 10px;
+  }
+
+  .guaranteeBoldText {
+    font-size: 16px;
+  }
+
+  .textBoxContainer {
+    font-size: 14px;
+  }
+}
 
 /* --  --  --  Free Shipping (section 7) --  --  -- */
 #combineBackground {
@@ -624,14 +716,15 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 10px;
+
 }
 
 #freeShippingGreenBG {
   background-color: #495E40;
 }
 
-.twoBottles {
-  /* width: 35%; */
+.container {
+  padding: 0;
 }
 
 .bottleImg {
