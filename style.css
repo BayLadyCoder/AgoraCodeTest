@@ -617,15 +617,6 @@ body {
 @media only screen and (max-width: 320px) {}
 
 /* --  --  --  Free Shipping (section 7) --  --  -- */
-#freeShippingGreenBG {
-  background-color: #495E40;
-}
-
-.bottleImg {
-  padding: 5px;
-  width: 150px;
-}
-
 #combineBackground {
   z-index: -100;
   background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.7) 40%, rgba(255, 255, 255, 0.4) 75%, transparent 100%), url('./img/TransparentArrowBkgd.jpg') bottom 0px right -1000px;
@@ -635,11 +626,46 @@ body {
   padding-top: 10px;
 }
 
+#freeShippingGreenBG {
+  background-color: #495E40;
+}
+
+.twoBottles {
+  /* width: 35%; */
+}
+
+.bottleImg {
+  padding: 5px;
+  width: 40%;
+}
+
+.freeShippingHeadText {
+  width: 300px;
+  height: 300px;
+}
+
+#orderNowWord {
+  font-size: 20px;
+  letter-spacing: 0.2;
+}
+
+
+#freeWord {
+  color: yellow;
+  font-size: 100px;
+  letter-spacing: 0.2;
+}
+
+#shippingWord {
+  font-size: 60px;
+  letter-spacing: 0.2;
+}
+
 .whiteTransparentBG {
   background-color: rgba(255, 255, 255, 0.68);
 }
 
-.transparentArrowContainer {}
+
 
 
 /* --  --  --  Media Queries (section 7) --  --  -- */
