@@ -159,7 +159,7 @@ body {
   }
 
   .textBox-text {
-    font-size: 13px;
+    font-size: 14px;
   }
 }
 
@@ -343,9 +343,7 @@ body {
 }
 
 
-/* --  --  --  -- Doctor and Lady Section --  --  --  --  --*/
-
-
+/* --  --  --  -- Doctor and Lady Section (section 4) --  --  --  --  --*/
 
 #brownBox {
   position: relative;
@@ -353,6 +351,7 @@ body {
   width: 90%;
   height: 250px;
   background-color: #3d1c0f;
+  align-self: start;
 }
 
 .doctorImgContainer {
@@ -369,4 +368,178 @@ body {
 .textBoxBrown {
   font-size: 20px;
   width: 60%;
+  text-align: justify;
 }
+
+
+/* --  --  --  Media Queries (section 4) --  --  -- */
+@media only screen and (max-width: 1280px) {
+
+  .doctorImg {
+    height: 300px;
+  }
+
+  .textBoxBrown {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .textBoxBrown {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  #brownBox {
+    width: 95%;
+    height: 200;
+  }
+
+  .doctorImg {
+    height: 290px;
+  }
+
+
+  .textBoxBrown {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  #brownBox {
+    margin-top: 60px;
+    position: static;
+    left: none;
+    width: 80%;
+    height: 490px;
+    align-self: center;
+  }
+
+
+  .doctorImgContainer {
+    position: relative;
+    top: -80px;
+    width: 100%;
+  }
+
+  .doctorImg {
+    height: 250px;
+  }
+
+  .textBoxBrown {
+    position: relative;
+    top: -35px;
+    font-size: 20px;
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 640px) {}
+
+@media only screen and (max-width: 575px) {
+  #brownBox {
+    margin-top: 65px;
+    height: 450px;
+    width: 90%;
+  }
+
+
+  .doctorImgContainer {
+    top: -60px;
+  }
+
+  .doctorImg {
+    height: 220px;
+  }
+
+  .textBoxBrown {
+    top: -15px;
+    font-size: 19px;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #brownBox {
+    margin-top: 0px;
+    height: 480px;
+    width: 100%;
+  }
+
+  .doctorImgContainer {
+    top: none;
+    position: static;
+  }
+
+  .doctorImg {
+    height: 190px;
+  }
+
+  .textBoxBrown {
+    position: static;
+    top: none;
+    font-size: 17px;
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .textBoxBrown {
+    font-size: 16px;
+  }
+}
+
+
+/* --  --  --  Media Queries (section 5) --  --  -- */
+@media only screen and (max-width: 1280px) {}
+
+@media only screen and (max-width: 1080px) {}
+
+@media only screen and (max-width: 960px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 640px) {}
+
+@media only screen and (max-width: 575px) {}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 320px) {}
+
+/* --  --  --  Media Queries (section 6) --  --  -- */
+@media only screen and (max-width: 1280px) {}
+
+@media only screen and (max-width: 1080px) {}
+
+@media only screen and (max-width: 960px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 640px) {}
+
+@media only screen and (max-width: 575px) {}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 320px) {}
+
+
+/* --  --  --  Media Queries (section 7) --  --  -- */
+@media only screen and (max-width: 1280px) {}
+
+@media only screen and (max-width: 1080px) {}
+
+@media only screen and (max-width: 960px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 640px) {}
+
+@media only screen and (max-width: 575px) {}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 320px) {}
