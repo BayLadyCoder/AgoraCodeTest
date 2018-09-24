@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
     <title>Agora Code Test</title>
@@ -247,9 +248,10 @@
                             <img class="bottleImg" src="./img/bottle.png" alt="">
                         </div>
                         <div class="freeShippingHeadText d-flex flex-column align-items-center justify-content-center">
-                            <div id="orderNowWord" class="text-white text-center">ORDER NOW AND RECEIVE</div>
-                            <div id="freeWord" class="font-weight-bold">FREE</div>
-                            <div id="shippingWord" class=" text-white font-weight-bold">SHIPPING</div>
+                            <span id="orderNowWord" class="freeShippingText text-white text-center">ORDER NOW AND
+                                RECEIVE</span>
+                            <span id="freeWord" class="freeShippingText font-weight-bold text-center">FREE</span>
+                            <span id="shippingWord" class="freeShippingText text-white font-weight-bold text-center">SHIPPING</span>
                         </div>
                         <div class="twoBottles d-none d-md-flex align-items-center justify-content-center">
                             <img class="bottleImg" src="./img/bottle.png" alt="">
@@ -293,13 +295,13 @@
             </div>
 
 
-            <div id="footer">
-                <div class="addToCartContainer">
-                    <div class="addToCart">ADD TO CART</div>
-                    <div class="reviewCart">You Can Review Your Order Before Its Final</div>
+            <div id="footer" class="w-100 d-flex flex-column align-items-center justify-content-center">
+                <div class="addToCartContainer d-flex flex-column align-items-center justify-content-center m-2">
+                    <span class="addToCart font-weight-bold text-white">ADD TO CART</span>
+                    <span class="reviewCart  font-weight-bold">You Can Review Your Order Before Its Final</span>
                 </div>
-                <a href="#">View the Product Label</a>
-                <p class="">
+                <a id="viewProductLabel" class="mb-2" href="#">View the Product Label</a>
+                <p class="footerText text-white">
                     CardiaSlim&reg; brand property blend of two plant extracts is a registered tradmark of <br>Lila
                     Nutraceuticals and InterHealth Nutraceuticals, Benicia, CA 94510
                 </p>

@@ -32,14 +32,15 @@ body {
 
 .text-perfectBloodSugar {
   background-image: linear-gradient(to right,
-    #682f10,
-    #ede7e3,
-    #ede7e3,
-    #ede7e3,
-    #682f10);
+    #682f10 0%,
+    #ede7e3 45%,
+    #ede7e3 50%,
+    #ede7e3 55%,
+    #682f10 100%);
 
   color: #ba3232;
-  font-size: 67px;
+  font-size: 70px;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .textBox-text {
@@ -711,7 +712,7 @@ body {
 /* --  --  --  Free Shipping (section 7) --  --  -- */
 #combineBackground {
   z-index: -100;
-  background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.7) 40%, rgba(255, 255, 255, 0.4) 75%, transparent 100%), url('./img/TransparentArrowBkgd.jpg') bottom 0px right -1000px;
+  background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.7) 40%, rgba(255, 255, 255, 0.4) 75%, rgba(255, 255, 255, 0.1) 100%), url('./img/TransparentArrowBkgd.jpg') bottom 0px right -1000px;
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -735,22 +736,28 @@ body {
 .freeShippingHeadText {
   width: 35%;
   height: auto;
+
+}
+
+.freeShippingText {
+  font-family: 'Open Sans Condensed', sans-serif;
+  line-height: 1;
 }
 
 #orderNowWord {
   font-size: 20px;
-  letter-spacing: 0.2;
+  letter-spacing: 3px;
 }
 
 #freeWord {
-  color: yellow;
+  color: #F9D63F;
   font-size: 100px;
-  letter-spacing: 0.2;
+  letter-spacing: 5px;
 }
 
 #shippingWord {
   font-size: 60px;
-  letter-spacing: 0.2;
+  letter-spacing: 5px;
 }
 
 .whiteTransparentBG {
@@ -772,7 +779,6 @@ body {
   }
 
   #freeWord {
-    color: yellow;
     font-size: 90px;
   }
 
@@ -788,7 +794,7 @@ body {
   }
 
   #freeWord {
-    color: yellow;
+
     font-size: 70px;
   }
 
@@ -803,7 +809,7 @@ body {
   }
 
   #freeWord {
-    color: yellow;
+
     font-size: 65px;
   }
 
@@ -818,7 +824,7 @@ body {
   }
 
   #freeWord {
-    color: yellow;
+
     font-size: 60px;
   }
 
@@ -834,7 +840,7 @@ body {
 @media only screen and (max-width: 640px) {
 
   #freeWord {
-    color: yellow;
+
     font-size: 50px;
   }
 
@@ -883,6 +889,36 @@ body {
 @media only screen and (max-width: 320px) {}
 
 /* --  --  --  Add to Cart and Footer (section 7) --  --  -- */
+
+.addToCartContainer {
+  font-family: 'Open Sans Condensed', sans-serif;
+  width: 400px;
+  height: 70px;
+  background-color: #E47E25;
+  border: solid white 3px
+}
+
+.addToCart {
+  font-size: 35px;
+  line-height: 0.8;
+  padding-top: 10px;
+}
+
+.reviewCart {
+  font-size: 13px;
+}
+
+#viewProductLabel {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #2BB673;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.footerText {
+  font-size: 12px;
+}
 
 /* --  --  --  Media Queries (section 7) --  --  -- */
 @media only screen and (max-width: 1280px) {}
