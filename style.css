@@ -106,8 +106,53 @@ body {
 
 @media only screen and (max-width: 768px) {
   .headingContainer {
-    height: 300px;
+    height: 320px;
   }
+
+  .headerText {
+    font-size: 25px;
+  }
+
+  .text-perfectBloodSugar {
+    font-size: 35px;
+  }
+
+  .textBox-text {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .headerText {
+    font-size: 25px;
+  }
+
+  .textBox-text {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .headingContainer {
+    height: 400px;
+  }
+
+  .responsiveDisplay {
+    display: block;
+  }
+
+  .headerText {
+    font-size: 25px;
+  }
+
+}
+
+@media only screen and (max-width: 480px) {
+  .headingContainer {
+    height: 350px;
+  }
+
+
 
   .headerText {
     font-size: 20px;
@@ -118,45 +163,28 @@ body {
   }
 
   .textBox-text {
-    padding: 10px;
-  }
-}
-
-@media only screen and (max-width: 640px) {
-  .textBox-text {
-    font-size: 16px;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .headingContainer {
-    height: 230px;
-  }
-
-  .headerText {
-    font-size: 17px;
-  }
-
-  .text-perfectBloodSugar {
-    font-size: 22px;
-  }
-
-  .textBox-text {
     font-size: 15px;
   }
 }
 
 @media only screen and (max-width: 320px) {
-  .headingContainer {
-    height: 200px;
+  .responsiveDisplay2 {
+    display: block;
   }
 
+  .headingContainer {
+    height: 100vh;
+  }
+
+
+
   .headerText {
-    font-size: 14px;
+    font-size: 22px;
+    line-height: 1.9;
   }
 
   .text-perfectBloodSugar {
-    font-size: 18px;
+    font-size: 30px;
   }
 
   .textBox-text {
