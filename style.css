@@ -567,29 +567,36 @@ body {
   }
 }
 
-/* --  --  --  Sectoin 6 (section 6) --  --  -- */
+/* --  --  --  Guarantee Section (section 6) --  --  -- */
+
+#guarantee {
+  background-color: #fff;
+  z-index: 100;
+  margin-bottom: -10px;
+
+}
 
 .textBoxContainer {
   width: 100%;
 }
 
-#freeShippingGreenBG {
-  background-color: #495E40;
-  /* padding: 50px; */
+.guaranteeBoldText {
+  font-size: 30px;
+
 }
 
-.bottleImg {
-  padding: 5px;
-  width: 150px;
+.clearfix {
+  overflow: auto;
 }
 
-#combineBackground {
-  background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.7) 30%, rgba(255, 255, 255, 0.4) 75%, transparent 100%), url('./img/TransparentArrowBkgd.jpg');
-  background-position: cover;
+.guaranteeImgContainer img {
+  width: 90%;
 }
 
-.whiteTransparentBG {
-  background-color: rgba(255, 255, 255, 0.7);
+#deliveryManImg {
+  width: 280px;
+  float: right;
+
 }
 
 /* --  --  --  Media Queries (section 6) --  --  -- */
@@ -609,6 +616,50 @@ body {
 
 @media only screen and (max-width: 320px) {}
 
+/* --  --  --  Free Shipping (section 7) --  --  -- */
+#freeShippingGreenBG {
+  background-color: #495E40;
+}
+
+.bottleImg {
+  padding: 5px;
+  width: 150px;
+}
+
+#combineBackground {
+  z-index: -100;
+  background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.7) 40%, rgba(255, 255, 255, 0.4) 75%, transparent 100%), url('./img/TransparentArrowBkgd.jpg') bottom 0px right -1000px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10px;
+}
+
+.whiteTransparentBG {
+  background-color: rgba(255, 255, 255, 0.68);
+}
+
+.transparentArrowContainer {}
+
+
+/* --  --  --  Media Queries (section 7) --  --  -- */
+@media only screen and (max-width: 1280px) {}
+
+@media only screen and (max-width: 1080px) {}
+
+@media only screen and (max-width: 960px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 640px) {}
+
+@media only screen and (max-width: 575px) {}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 320px) {}
+
+/* --  --  --  Add to Cart and Footer (section 7) --  --  -- */
 
 /* --  --  --  Media Queries (section 7) --  --  -- */
 @media only screen and (max-width: 1280px) {}
