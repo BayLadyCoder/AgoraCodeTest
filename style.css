@@ -6,7 +6,7 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0 auto;
   padding: 0;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: normal;
 }
 
@@ -123,7 +123,7 @@ body {
 
 @media only screen and (max-width: 640px) {
   .textBox-text {
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 
@@ -141,7 +141,7 @@ body {
   }
 
   .textBox-text {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 
@@ -489,8 +489,29 @@ body {
   .textBoxBrown {
     font-size: 16px;
   }
+
+
 }
 
+
+/* --  --  --  Red Gear Section (section 5) --  --  -- */
+#redGear {
+  background-image: url("./img/Gears_15.jpg");
+  background-position: left 820px bottom -300px;
+
+
+
+  background: linear-gradient(to right, rgb(164, 31, 37) 0%, rgba(164, 31, 37, 1) 60%, rgba(164, 31, 37, 0.4) 62%, rgba(164, 31, 37, 0.4) 100%), url('./img/Gears_15.jpg') left 820px bottom -300px;
+
+}
+
+
+.textYellow {
+
+  font-size: 25px;
+  color: #FFCD2F;
+
+}
 
 /* --  --  --  Media Queries (section 5) --  --  -- */
 @media only screen and (max-width: 1280px) {}
