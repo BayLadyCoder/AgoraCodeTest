@@ -81,7 +81,7 @@ body {
   }
 
   .textBox-text {
-    padding: 0 30px;
+    padding: 0 20px;
   }
 }
 
@@ -99,7 +99,7 @@ body {
   }
 
   .textBox-text {
-    padding: 0 20px;
+    padding: 0 10px;
   }
 }
 
@@ -496,39 +496,76 @@ body {
 
 /* --  --  --  Red Gear Section (section 5) --  --  -- */
 #redGear {
-  background-image: url("./img/Gears_15.jpg");
-  background-position: left 820px bottom -300px;
-
-
-
-  background: linear-gradient(to right, rgb(164, 31, 37) 0%, rgba(164, 31, 37, 1) 60%, rgba(164, 31, 37, 0.4) 62%, rgba(164, 31, 37, 0.4) 100%), url('./img/Gears_15.jpg') left 820px bottom -300px;
-
+  background: linear-gradient(to right, rgb(164, 31, 37) 0%, rgba(164, 31, 37, 1) 60%, rgba(164, 31, 37, 0.4) 65%, rgba(164, 31, 37, 0.4) 100%), url('./img/Gears_15.jpg') left 820px bottom -300px;
 }
 
 
 .textYellow {
-
   font-size: 25px;
   color: #FFCD2F;
-
 }
 
 /* --  --  --  Media Queries (section 5) --  --  -- */
-@media only screen and (max-width: 1280px) {}
+@media only screen and (max-width: 1280px) {
+  #redGear {
+    background: linear-gradient(to right, rgb(164, 31, 37) 0%, rgba(164, 31, 37, 1) 60%, rgba(164, 31, 37, 0.4) 70%, rgba(164, 31, 37, 0.4) 100%), url('./img/Gears_15.jpg') left 790px bottom -300px;
+  }
 
-@media only screen and (max-width: 1080px) {}
+}
 
-@media only screen and (max-width: 960px) {}
+@media only screen and (max-width: 1080px) {
+  #redGear {
+    background: linear-gradient(to right, rgb(164, 31, 37) 0%, rgba(164, 31, 37, 1) 60%, rgba(164, 31, 37, 0.4) 70%, rgba(164, 31, 37, 0.4) 100%), url('./img/Gears_15.jpg') left 700px bottom -300px;
+  }
+}
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 960px) {
+  #redGear {
+    background: linear-gradient(to right, rgb(164, 31, 37) 0%, rgba(164, 31, 37, 1) 60%, rgba(164, 31, 37, 0.4) 70%, rgba(164, 31, 37, 0.4) 100%), url('./img/Gears_15.jpg') left 600px bottom -300px;
+  }
+}
 
-@media only screen and (max-width: 640px) {}
+@media only screen and (max-width: 768px) {
+  #redGear {
+    background: linear-gradient(to right, rgb(164, 31, 37) 0%, rgba(164, 31, 37, 1) 50%, rgba(164, 31, 37, 0.4) 60%, rgba(164, 31, 37, 0.4) 100%), url('./img/Gears_15.jpg') left 400px bottom -300px;
+  }
+}
 
-@media only screen and (max-width: 575px) {}
+@media only screen and (max-width: 640px) {
+  #redGear {
+    background: linear-gradient(to right, rgb(164, 31, 37) 0%, rgba(164, 31, 37, 1) 50%, rgba(164, 31, 37, 0.4) 60%, rgba(164, 31, 37, 0.4) 100%), url('./img/Gears_15.jpg') left 350px bottom -300px;
+  }
+}
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 575px) {
+  #redGear {
+    background: linear-gradient(to right, rgb(164, 31, 37) 0%, rgba(164, 31, 37, 1) 50%, rgba(164, 31, 37, 0.4) 60%, rgba(164, 31, 37, 0.4) 100%), url('./img/Gears_15.jpg') left 250px bottom -300px;
+  }
 
-@media only screen and (max-width: 320px) {}
+  .textYellow {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #redGear {
+    background: linear-gradient(to right, rgb(164, 31, 37) 0%, rgba(164, 31, 37, 1) 30%, rgba(164, 31, 37, 0.4) 45%, rgba(164, 31, 37, 0.4) 100%), url('./img/Gears_15.jpg') left 180px bottom -300px;
+  }
+
+  .textYellow {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  #redGear {
+    background: linear-gradient(to right, rgb(164, 31, 37) 0%, rgba(164, 31, 37, 1) 30%, rgba(164, 31, 37, 0.4) 45%, rgba(164, 31, 37, 0.4) 100%), url('./img/Gears_15.jpg') left 30px bottom -300px;
+  }
+
+  .textYellow {
+    font-size: 18px;
+  }
+}
 
 /* --  --  --  Media Queries (section 6) --  --  -- */
 @media only screen and (max-width: 1280px) {}
