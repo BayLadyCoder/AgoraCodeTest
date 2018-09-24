@@ -567,6 +567,31 @@ body {
   }
 }
 
+/* --  --  --  Sectoin 6 (section 6) --  --  -- */
+
+.textBoxContainer {
+  width: 100%;
+}
+
+#freeShippingGreenBG {
+  background-color: #495E40;
+  /* padding: 50px; */
+}
+
+.bottleImg {
+  padding: 5px;
+  width: 150px;
+}
+
+#combineBackground {
+  background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.7) 30%, rgba(255, 255, 255, 0.4) 75%, transparent 100%), url('./img/TransparentArrowBkgd.jpg');
+  background-position: cover;
+}
+
+.whiteTransparentBG {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
 /* --  --  --  Media Queries (section 6) --  --  -- */
 @media only screen and (max-width: 1280px) {}
 
