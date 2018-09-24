@@ -631,7 +631,7 @@ body {
   }
 
   .container {
-    padding: 10px 0 !important;
+    padding: 0 !important;
     max-width: 600px !important;
   }
 }
@@ -728,20 +728,19 @@ body {
 }
 
 .bottleImg {
-  padding: 5px;
+  padding: 0 5px;
   width: 40%;
 }
 
 .freeShippingHeadText {
-  width: 300px;
-  height: 300px;
+  width: 35%;
+  height: auto;
 }
 
 #orderNowWord {
   font-size: 20px;
   letter-spacing: 0.2;
 }
-
 
 #freeWord {
   color: yellow;
@@ -762,19 +761,124 @@ body {
 
 
 /* --  --  --  Media Queries (section 7) --  --  -- */
-@media only screen and (max-width: 1280px) {}
+@media only screen and (max-width: 1280px) {
+  .bottleImg {
+    padding: 5px;
+    width: 30%;
+  }
 
-@media only screen and (max-width: 1080px) {}
+  #orderNowWord {
+    font-size: 20px;
+  }
 
-@media only screen and (max-width: 960px) {}
+  #freeWord {
+    color: yellow;
+    font-size: 90px;
+  }
 
-@media only screen and (max-width: 768px) {}
+  #shippingWord {
+    font-size: 50px;
+  }
+}
 
-@media only screen and (max-width: 640px) {}
+@media only screen and (max-width: 1080px) {
 
-@media only screen and (max-width: 575px) {}
+  #orderNowWord {
+    font-size: 16px;
+  }
 
-@media only screen and (max-width: 480px) {}
+  #freeWord {
+    color: yellow;
+    font-size: 70px;
+  }
+
+  #shippingWord {
+    font-size: 45px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  #orderNowWord {
+    font-size: 14px;
+  }
+
+  #freeWord {
+    color: yellow;
+    font-size: 65px;
+  }
+
+  #shippingWord {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .freeShippingHeadText {
+    width: 40%;
+  }
+
+  #freeWord {
+    color: yellow;
+    font-size: 60px;
+  }
+
+  #shippingWord {
+    font-size: 35px;
+  }
+
+  .bottleImg {
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+
+  #freeWord {
+    color: yellow;
+    font-size: 50px;
+  }
+
+  #shippingWord {
+    font-size: 30px;
+  }
+
+  .bottleImg {
+    width: 80px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .freeShippingHeadText {
+    width: 40%;
+  }
+
+  #orderNowWord {
+    font-size: 12px;
+  }
+
+  #freeWord {
+    color: yellow;
+    font-size: 40px;
+  }
+
+  #shippingWord {
+    font-size: 20px;
+  }
+
+  .bottleImg {
+    width: 80px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .twoBottles {
+    margin-right: 10px;
+  }
+
+  #bottleOne {
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 320px) {}
 
