@@ -24,6 +24,6 @@ Questions and Problems I found from working on this project
 11.(Suggestion) Footer text(the white text below the add to cart button) could have use text-align: center to make it look better.
 
 Thank you for your time.
-Rachada Chairangsaris (Bay)
+Rachada Chairangsaris (Bay)  
 
 */
